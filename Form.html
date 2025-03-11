@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sample Form</title>
+</head>
+<body>
+    <h1>Sample Form</h1>
+
+    <!-- TEXT BOX-->
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" pattern="[a-z,A-Z{3,40}]"" placeholder= "Enter your name" name="uname"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="text" pattern="[a-z,A-Z{3,40}]"" placeholder= "Enter your Email" name="uemail"><br><br>
+        
+        <label for="age">Age:</label>
+        <input type="text" pattern="[{3,40}]"" placeholder= "Enter your Age" name="uage"><br><br>
+
+
+        <!-- RADIO BUTTON-->
+        <label>Gender</label>
+        <input
+            type="radio" value = "male" name = "gender"> male 
+        <input
+            type="radio" value = "female" name = "gender"> female
+
+        <br>
+        <br>
+        
+        <!-- CHECKBOX-->
+        <label>Course</label>
+            <input type="checkbox" value="C++" name="course">C++
+            <input type="checkbox" value="Java" name="course">Java
+            <input type="checkbox" value="Python" name="course">Python
+            <input type="checkbox" value="HTML" name="course">HTML  
+
+        <br>
+        <br>   
+        
+        <!-- DROP DOWN -->
+        <label>Country</label>
+        <select name="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+        </select>
+
+            <br>
+            <br>
+
+
+        <!-- Text MSG-->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br><br>
+        
+        <!-- Choose File-->
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <!-- Drop Down and group by -->
+        <label>course</label> <br>
+        <select>
+            <optgroup label="FontEnd">
+                <option value="C++">C++</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="CSS">CSS</option>
+                <option value="HTML">HTML</option>
+            </optgroup>
+            <optgroup label="BackEnd">
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="PHP">PHP</option>
+                <option value="Ruby">Ruby</option>
+        </select>
+        <br>
+        <br>
+
+         <!-- Select Date-->
+        Date<br>
+        <input type="date" />
+        <br><br>
+        
+        <!-- Select Time-->
+        <Time>
+        <input type="time" />
+        <br><br>
+
+         <!-- Select WEEK-->
+        Week<br>
+        <input type="week" />
+        <br><br>
+
+         <!-- Select MOnth-->
+        Month<br>
+        <input type="month" />
+        <br><br>
+
+        <!--input color-->
+        Color<br>
+        <input type="color" />
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html></select></form></html>
